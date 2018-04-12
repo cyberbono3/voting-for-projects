@@ -1,5 +1,7 @@
 # voting-for-projects
 
+```
+
 contract VoteForProject{
     address public owner;
     bytes32[] public projects;
@@ -117,3 +119,4 @@ event Contribution(address indexed voterAddress, uint256 voterAmount, uint256 ba
     return votesInTokens;
   }
   
+```
